@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1 style="text-align: center;"> Entry Level Form</h1>
+    <div>
+    
+    <form action="" style="text-align: center ;" autocomplete="on">
+   
+           
+       
+        <label for="fname">First Name </label>
+        <input type="text" name= "fname" value="" placeholder=" your name" required>
+<br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" placeholder=" Surname" required>
+<br><br>
+        <label for="email">Email</label>
+        <input type="text" name="email" placeholder=" Enter your mail" required>
+<br><br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="Female"> 
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="Other">
+
+<br><br>
+
+
+
+        <label for="profession">Select your Role</label>
+        <input list="role" name="data-list">
+        <datalist id="role" >
+            <option value="Student">
+            <option value="IT Professional">
+            <option value="Bussinessman">
+
+        </datalist>
+        <!-- <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+          <option value="Edge">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist> -->
+        
+        
+        
+        <br><br>
+        <label for="cars">Cars</label>
+        <select name="cars" id="">
+            <option value="Volvo">
+                Volvo
+            </option>
+            <option value="BMW">
+                BMW
+            </option>
+            <option value="Audi">
+                Audi
+            </option>
+
+        </select>
+
+        <br><br>
+        <!-- <input type="color" name="color" id=""> -->
+        <input type="date" name="date" id="">
+        <br><br>
+        <input type="datetime-local" name="date" id="">
+        <br><br>
+
+        <label for="query">Message:</label>
+        <br><br>
+        <textarea name="query" id="" cols="25" rows="7" placeholder=" 
+        
+        
+    Enter Your Query"></textarea>
+
+
+<br><br>
+        <input type="submit" value="Submit">
+        <br>
+        <input type="reset"><br>
+    
+   </form>
+</div>
+</body>
+</html>
+
+<!-- 
+    can use the table inside the form to make form looks better
+    <form>
+<table>
+               <tr>
+                   <td><label for="fname">First Name </label></td>
+                   <td><input type="text" name= "fname" value="" placeholder=" your name" required></td>
+               </tr>
+               <tr>
+                <td><label for="lname">Last Name</label></td>
+           
+                <td><input type="text" name="lname" placeholder=" Surname" required> </td>
+               </tr>
+               <tr>
+                   <td><label for="fname">First Name </label></td>
+                   <td><input type="text" name= "fname" value="" placeholder=" your name" required></td>
+               </tr>
+               <tr>
+                   <td><label for="fname">First Name </label></td>
+                   <td><input type="text" name= "fname" value="" placeholder=" your name" required></td>
+               </tr> 
+
+            </form> -->
